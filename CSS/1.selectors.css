@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Tag Selectors */
+body{
+    background-color: white;
+    
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: yellow;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 10px 10px;
+    padding: 15px 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Class Selectors */
+.selectors{
+    width: 10rem; 
+    height: 10rem;
+    background-color: blue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sel{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center; /* width angle*/
+    align-items: center; /* height angle*/
+    text-align: center;
+}
+.title{
+    font-size: 14px;
+    color: white;
+    
+}
+.para{
+    font-size: 12px;
+    color: white;
+}
+
+/* ID Selectors */
+#footers{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
