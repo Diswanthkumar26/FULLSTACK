@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(./hand-drawn-halloween-ghosts-collection_23-2149111437.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: right; */
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+}
+section{
+    margin: 20px;
+}
+.background1{
+    width: 200px;
+    height: 200px;
+    background-image: url(./430863-PE9MJN-63.jpg);
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    background-size: 100% 100%;
+    background-color: aqua;
+    
+}
+.background2{
+    width: 200px;
+    height: 200px;
+    background-image: url(./WhatsApp\ Image\ 2024-12-30\ at\ 8.55.16\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 70%;
+    background-color: red;
+}
+.background3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
