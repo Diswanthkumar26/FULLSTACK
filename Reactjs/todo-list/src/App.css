@@ -1,0 +1,63 @@
+body{
+  background-color: black;
+}
+.card{
+  background-color: rgb(37, 37, 37);
+  border-radius: 20px;
+}
+.form-label{
+  color: white !important;
+  font-weight: 600;
+}
+.headin-nav{
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.heading{
+  font-weight: 600;
+  font-size: 20px;
+
+}
+.btn-primar{
+  background-color: rgb(42, 233, 42);
+  border: 1px solid rgb(42, 233, 42);
+  border-radius: 10px;
+  font-weight: 600;
+}
+.btn-primar:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 3px 3px 3px rgb(42, 233, 42),
+              -3px -3px 3px rgb(42, 233, 42);
+}
+.btn-dange{
+  background-color: rgb(245, 65, 65);
+  border: 1px solid rgb(245, 65, 65);
+  border-radius: 10px;
+  font-weight: 600;
+}
+.btn-dange:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 3px 3px 3px rgb(245, 65, 65),
+              -3px -3px 3px rgb(245, 65, 65);
+}
+.btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: black !important;
+  background-color: white !important;
+  border-color: white !important;
+}
+.col-8 .card{
+  border-radius: 1px !important;
+}
+.table{
+  width: 100%;
+  --bs-table-bg: rgb(37, 37, 37) !important;
+  border: rgb(37, 37, 37);
+  color: white;
+  vertical-align: middle;
+}
+th , td{
+   color: whitesmoke !important;
+}
